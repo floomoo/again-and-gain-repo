@@ -1,0 +1,209 @@
+
+
+/* Apply a background color to the entire page */
+body {
+  background-color: #2d65b8;
+  font-family: Arial, sans-serif;
+}
+
+/* Define a class for the bordered sections */
+.bordered-section {
+  background-color: #fff;
+  border: 2px solid #333;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  max-width:100% ;
+  min-width: auto;
+  text-align: center;
+  color: blue;
+}
+
+
+.mapschool{
+  text-align: center;
+}
+
+
+
+.form9{
+  text-align: center;
+}
+.col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+
+
+
+  img{
+    border: 2px solid #000; /* Set the border properties */
+    padding: 0; /* Add some padding inside the border */
+    margin: 10px;
+    max-width: 100px;
+    min-width: 100%;
+    height: auto;
+    float: center;
+  }
+  
+ 
+ 
+
+
+
+/* Style headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Style the list */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+/* Style the footer */
+.footer1 {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* color words */
+
+#s9{
+  color:rgb(57, 167, 30);
+
+}
+
+#t{
+  color:yellow;
+}
+
+#e{
+  color:#8C3333;
+}
+
+#p1{
+  color:red;
+}
+#p2{
+  color:blue;
+}
+
+#i{
+  color:greenyellow;
+}
+
+#n{
+  color:rgb(231, 156, 15);
+}
+#s{
+  color:rgb(8, 12, 12);
+}
+#t{
+  color:rgb(105, 189, 56);
+}
+#o{
+  color:rgba(46, 44, 173, 0.534);
+}
+#n1{
+  color:rgb(214, 190, 50);
+}
+#e1{
+  color:rgb(28, 102, 170);
+}
+
+#s1{
+  color:rgb(38, 48, 47);
+}
+#a{
+  color:rgba(5, 1, 1, 0.966);
+}
+
+#c{
+  color:rgb(214, 245, 41);
+}
+#e7{
+ color: #8C3333;
+}
+#d{
+  color:red;
+}
+
+#e3{
+  color:rgb(231, 143, 42);
+}
+#m{
+  color:rgb(241, 140, 46);
+}
+
+#y{
+  color:rgb(137, 235, 46);
+}
+
+.g5{
+  color:rgb(106, 187, 40);
+}
+.fam1{
+  color: rgb(7, 45, 56); 
+  font-size: larger ;
+  font-family: Georgia, 
+    'Times New Roman', Times, serif ; 
+  text-align: center;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px; /* Add some spacing between grid items */
+}
+
+.grid-item {
+  border: 1px solid #ccc; /* Add a border to each grid item */
+  padding: 20px; /* Add padding to create space around text */
+}
+
+.info1{
+  text-align: center;
+  font-size: 150%;
+  padding:3px;
+}
+
