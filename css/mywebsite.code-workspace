@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "mywebsite",
+			"path": ".."
+		},
+		{
+			"name": "media",
+			"path": "../../collaration one/code/Corralation school/media"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}
