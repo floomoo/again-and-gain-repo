@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+body, h1, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Background color for the entire page */
+}
+
+/* Style the login form */
+.login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc; /* Border around the login form */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+/* Style the buttons */
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style individual buttons as needed */
+.buttons button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin to separate buttons */
+}
+
+
+
+
+/* xs */
+@media (min-width:475px){}
+
+/* sm */
+@media(min-width: 640px){}
+
+/* md */
+@media(min-width: 768px){}
+
+/* lg */
+@media(min-width: 1024px){}
+
+/* xl */
+@media(min-width: 1280){}
+
+/* 2xl */
+@media(min-width: 1536px){}
